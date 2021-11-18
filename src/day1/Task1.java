@@ -1,3 +1,9 @@
+//Вывести на экран слово “JAVA” , в строку, чтобы оно повторилось 10 раз, используя
+//        цикл while .
+//        Вывод в консоль должен быть таким:
+//        JAVA JAVA JAVA JAVA JAVA JAVA JAVA JAVA JAVA JAVA
+
+
 package day1;
 
 public class Task1 {

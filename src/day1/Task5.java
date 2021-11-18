@@ -1,3 +1,5 @@
+//Повторить задание 4, но используя цикл for .
+
 package day1;
 
 public class Task5 {
