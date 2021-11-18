@@ -1,3 +1,6 @@
+//Реализовать программу №2, используя цикл while .
+
+
 package day2;
 
 import java.util.Scanner;
