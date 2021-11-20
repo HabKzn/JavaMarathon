@@ -18,15 +18,38 @@
 
 package day6;
 
-public class task2 {
-    public static void main(String[] args) {
-        Airplane kukuruznik = new Airplane("АН", 1954, 3000, 540, 0);
+public class Airplane {
+    private String producer;
+    private int year;
+    private int length;
+    private int weight;
+    private int fuel = 0;
 
-        kukuruznik.setLength(2850);
-        kukuruznik.setYear(1980);
-        kukuruznik.fillUp(25);
-        kukuruznik.fillUp(30);
-        kukuruznik.info();
+    public int getFuel() {
+        return fuel;
     }
 
+    Airplane(String producer, int year, int length, int weight, int fuel) {
+        this.producer = producer;
+        this.year = year;
+        this.length = length;
+        this.weight = weight;
+        this.fuel = fuel;
+    }
+
+    void info() {
+        System.out.println("Изготовитель: " + producer + ", год выпуска: " + year + ", длина: " + length + ", вес: " + weight + ", количество топлива в баке: " + getFuel());
+    }
+
+    void fillUp(int liters) {
+        this.fuel += liters;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
+    }
+
+    public void setLength(int length) {
+        this.length = length;
+    }
 }
