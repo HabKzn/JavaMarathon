@@ -17,10 +17,10 @@ package day6;
 
 public class task3 {
     public static void main(String[] args) {
-Teacher teacher1 = new Teacher();
-teacher1.setName("Boris Ivanovich");
-teacher1.setClassName("Computer science");
-Student student1 = new Student("Ivan");
-teacher1.evaluate(student1);
+        Teacher teacher1 = new Teacher();
+        teacher1.setName("Boris Ivanovich");
+        teacher1.setClassName("Computer science");
+        Student student1 = new Student("Ivan");
+        teacher1.evaluate(student1);
     }
 }
