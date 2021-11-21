@@ -11,10 +11,12 @@ public class Teacher extends Human {
     public void setClassName(String className) {
         this.className = className;
     }
+
     Teacher(String name, String className) {
         super(name);
         setClassName(className);
     }
+
     @Override
     void printInfo() {
         super.printInfo();
