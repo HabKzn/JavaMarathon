@@ -1,3 +1,4 @@
+//task1
 package day9;
 
 public class Student extends Human {
@@ -16,7 +17,6 @@ public class Student extends Human {
         this.groupName = groupName;
 
     }
-
 
 
     @Override
