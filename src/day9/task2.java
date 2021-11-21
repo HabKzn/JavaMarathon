@@ -45,12 +45,12 @@ package day9;
 public class task2 {
 
     public static void main(String[] args) {
-        System.out.println("Сумма площадей крсаных фигур равна "+calculateRedArea(figures));
-        System.out.println("Сумма периметров красных фигур равна "+calculateRedPerimeter(figures));
+        System.out.println("Сумма площадей крсаных фигур равна " + calculateRedArea(figures));
+        System.out.println("Сумма периметров красных фигур равна " + calculateRedPerimeter(figures));
     }
 
 
-   static Figure[] figures = {
+    static Figure[] figures = {
             new Triangle(10, 10, 10, "Red"),
             new Triangle(10, 20, 30, "Green"),
             new Triangle(10, 20, 15, "Red"),
