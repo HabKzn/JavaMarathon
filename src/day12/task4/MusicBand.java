@@ -15,7 +15,7 @@ public class MusicBand {
     int year;
     List <String> participants;
 
-    MusicBand(String name, int year) {
+    public MusicBand(String name, int year) {
         this.name = name;
         this.year = year;
         participants = new ArrayList<>();
